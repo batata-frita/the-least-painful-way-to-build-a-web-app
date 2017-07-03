@@ -1,0 +1,27 @@
+{
+  "name": "trum-talk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xaviervia/trum-talk.git",
+  "author": "Paulo Ragonha <paulo@ragonha.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "sagui build",
+    "dist": "sagui dist",
+    "format": "sagui format",
+    "start": "sagui develop --port 3000",
+    "test": "sagui test",
+    "test:lint": "sagui test:lint",
+    "test:typecheck": "sagui test:typecheck",
+    "test:unit": "sagui test:unit --coverage",
+    "test:unit:watch": "sagui test:unit --watch"
+  },
+  "devDependencies": {
+    "sagui": "^10.0.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "reveal.js": "^3.5.0"
+  }
+}
