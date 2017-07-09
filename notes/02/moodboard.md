@@ -1,0 +1,5 @@
+- Oh no! - Marina and the diamonds - https://www.youtube.com/watch?v=Cr-SqRWImmI
+- Homecoming King - Hasan Minaj - https://www.netflix.com/watch/80134781
+- (toned down) Pop Art - https://www.google.se/search?q=pop+art&rlz=1C5CHFA_enSE739SE739&source=lnms&tbm=isch&sa=X&ved=0ahUKEwif_b6dkfzUAhWIC5oKHRtODRoQ_AUICigB&biw=1440&bih=826
+- Design based on typography: https://www.google.se/search?q=pop+art&rlz=1C5CHFA_enSE739SE739&source=lnms&tbm=isch&sa=X&ved=0ahUKEwif_b6dkfzUAhWIC5oKHRtODRoQ_AUICigB&biw=1440&bih=826#tbm=isch&q=typography+poster
+- Flat vector art (like Kurzgesagt) - https://www.google.se/search?q=pop+art&rlz=1C5CHFA_enSE739SE739&source=lnms&tbm=isch&sa=X&ved=0ahUKEwif_b6dkfzUAhWIC5oKHRtODRoQ_AUICigB&biw=1440&bih=826#tbm=isch&q=flat+vector+art
