@@ -1,0 +1,7 @@
+- After the second encounter, the interruption happens when you fall in a mysterious cave.
+- You are flown in from your regular city into this island of the rhythm (or something like that)
+- You get all the updates of what to build via various internet interactions, for example texts (whatsapp) or mails to comments in a JIRA ticket.
+- The tower is shown animated with a pan-up motion from the fairy-tale looking ground level to the holy-white looking tower top with the banner.
+- The tower and the cave need to share motif in some way. The arrows motif could potentially appear earlier.
+- Some instrument in the drum kit might be the one that makes slides advance, and another go back, but it could also be that a certain "gesture" such as tapping the same instrument twice in quick succession makes it advance. We shall see what is more convenient.
+- Each time any instrument in the drumkit is tapped, it should give a visual feedback, kind of like a heart-beat. This should be present all the time giving a background beat to the presentation.
