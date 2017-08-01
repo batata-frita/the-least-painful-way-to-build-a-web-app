@@ -51,3 +51,9 @@ In the real world, you make decisions based on what you know. What data you have
 
 - There is a state in your side effect
 - Monad is just a monoid in the category of endofunctors
+
+
+## Proposed constraints
+
+- Your UI has no state
+- Your UI is a pure function

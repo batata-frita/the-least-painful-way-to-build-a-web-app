@@ -17,6 +17,7 @@
     "test:unit:watch": "sagui test:unit --watch"
   },
   "devDependencies": {
+    "prettier": "^1.5.3",
     "sagui": "^10.0.0"
   },
   "dependencies": {
