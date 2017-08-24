@@ -1,5 +1,33 @@
 # The talk
 
+## The fire-fighter
+
+the idea is that you got a new robot for free
+on a recent purchase on Wish
+
+it comes with a manual that says it supports
+teaching it to do stuff
+
+the point is
+  - teach the robot to observe what is happening
+  - teach the robot to observe the world
+
+examples of fire:
+- kid with flame-thrower
+- npm install inside a docker container in a vm
+- stove on
+- galaxy 8 charging
+
+
+Then we move on showing how this would map in a web application, and maybe even in a backend service...
+
+- no libaries/frameworks specific, just concepts
+- build a "game" with the fire example where you are a god
+
+We might not be able to fit 'redux-heat' in the talk. We do it in the Q&A.
+
+After the Q&A we can have a thank you slide with some links.
+
 ## Title ideas
 
 - Side-effects of a function of state
