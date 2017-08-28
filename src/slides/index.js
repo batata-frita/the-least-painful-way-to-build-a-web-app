@@ -1,9 +1,11 @@
 import React from 'react'
 import Introduction from './Introduction'
-import Content from './Content'
+import Story from './Story'
+import App from './App'
 
 export default () =>
   <div className="slides">
     <Introduction />
-    <Content />
+    <Story />
+    <App />
   </div>
