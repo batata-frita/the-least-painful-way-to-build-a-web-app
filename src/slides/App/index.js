@@ -2,6 +2,7 @@ import React from 'react'
 import { createStore } from 'redux'
 import { Provider, connect } from 'react-redux'
 import subscribe from 'redux-heat'
+import * as actions from './actions'
 
 const callStates = {
   IDLE: 'IDLE',
@@ -17,31 +18,31 @@ const initialState = {
 const reducer = (state = initialState, action) => {
   console.log(state, action)
   switch (action.type) {
-    case 'LIGHTNING_STRIKE':
+    case actions.LIGHTNING_STRIKE:
       return {
         ...state,
         thereIsFire: true,
       }
 
-    case 'PHONE_EXPLODES':
+    case actions.PHONE_EXPLODES:
       return {
         ...state,
         thereIsFire: true,
       }
 
-    case 'CALL_FIRE_DEPARTMENT':
+    case actions.CALL_FIRE_DEPARTMENT:
       return {
         ...state,
         fireDepartmentState: callStates.CALLING,
       }
 
-    case 'FIRE_DEPARTEMENT_ON_ITS_WAY':
+    case actions.FIRE_DEPARTEMENT_ON_ITS_WAY:
       return {
         ...state,
         fireDepartmentState: callStates.FIRE_DEPARTEMENT_ON_ITS_WAY,
       }
 
-    case 'EXTINGUISH_FIRE':
+    case actions.EXTINGUISH_FIRE:
       return {
         ...state,
         thereIsFire: false,
@@ -63,7 +64,7 @@ const callFireDepartmentHeat = state =>
     .filter(x => x)
     .delay(500)
     .map(() => ({
-      type: 'CALL_FIRE_DEPARTMENT',
+      type: actions.CALL_FIRE_DEPARTMENT,
     }))
 
 const fireDepartmentComingHeat = state =>
@@ -73,7 +74,7 @@ const fireDepartmentComingHeat = state =>
     .filter(x => x)
     .delay(1000)
     .map(() => ({
-      type: 'FIRE_DEPARTEMENT_ON_ITS_WAY',
+      type: actions.FIRE_DEPARTEMENT_ON_ITS_WAY,
     }))
 
 const extinguishFireHeat = state =>
@@ -85,7 +86,7 @@ const extinguishFireHeat = state =>
     .filter(x => x)
     .delay(2000)
     .map(() => ({
-      type: 'EXTINGUISH_FIRE',
+      type: actions.EXTINGUISH_FIRE,
     }))
 
 const store = createStore(reducer)
@@ -93,8 +94,8 @@ const store = createStore(reducer)
 subscribe(store, [callFireDepartmentHeat, fireDepartmentComingHeat, extinguishFireHeat])
 
 const mapDispatchToProps = dispatch => ({
-  onLightningStrike: () => dispatch({ type: 'LIGHTNING_STRIKE' }),
-  onPhoneExplodes: () => dispatch({ type: 'PHONE_EXPLODES' }),
+  onLightningStrike: () => dispatch({ type: actions.LIGHTNING_STRIKE }),
+  onPhoneExplodes: () => dispatch({ type: actions.PHONE_EXPLODES }),
 })
 
 const App = connect(
