@@ -12,5 +12,6 @@ render(<Slides />, document.getElementById('root'), () =>
     progress: false,
     history: true,
     transitionSpeed: 'fast',
+    backgroundTransition: 'none',
   })
 )
