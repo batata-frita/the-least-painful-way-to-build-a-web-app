@@ -7,6 +7,7 @@ import happyHouse from './image-slides/happyHouse.svg'
 import houseOnFire from './image-slides/houseOnFire.svg'
 import houseAndRobot from './image-slides/houseAndRobot.svg'
 import robotSleepingOnPhoneExplosion from './image-slides/robotSleepingOnPhoneExplosion.svg'
+import houseOnStartingFire from './image-slides/houseOnStartingFire.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -62,9 +63,7 @@ export default () =>
       <h1>⚡️ 🏠</h1>
       <h1>i 💔</h1>
     </section>
-    <section>
-      <h1>🔥🏚🔥</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={houseOnFire} />
     <section>
       <h1>🤔</h1>
     </section>
@@ -74,9 +73,7 @@ export default () =>
     <section>
       <h2>☄</h2>
     </section>
-    <section>
-      <h1>🔥🏚🔥</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={houseOnFire} />
     <section>
       <h2>💡</h2>
     </section>
@@ -90,9 +87,7 @@ export default () =>
       <h1>💻</h1>
       <code>npm install</code>
     </section>
-    <section>
-      <h1>🔥🏡🔥</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={houseOnStartingFire} />
     <section>
       <h1>🤖 📞 🚒</h1>
     </section>
