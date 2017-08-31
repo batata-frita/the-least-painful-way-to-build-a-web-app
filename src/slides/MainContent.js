@@ -21,6 +21,12 @@ import robotCallsFireDepartmentEvenIfRodSavedHouse from './image-slides/robotCal
 import fireDepartmentComesAndThereIsNoFire from './image-slides/fireDepartmentComesAndThereIsNoFire.svg'
 import theFireDepartmentAsksForMoney from './image-slides/theFireDepartmentAsksForMoney.svg'
 import dontCallIfLightningStrike from './image-slides/dontCallIfLightningStrike.svg'
+import lightningStrikesAndRodIsBroken from './image-slides/lightningStrikesAndRodIsBroken.svg'
+import lightningStrikesWithBrokenRodAndRobotDoesntCare from './image-slides/lightningStrikesWithBrokenRodAndRobotDoesntCare.svg'
+import thinkingInTheTrees from './image-slides/thinkingInTheTrees.svg'
+import meteorFromTheSky from './image-slides/meteorFromTheSky.svg'
+import forestOnFire from './image-slides/forestOnFire.svg'
+import youHadAnIdea from './image-slides/youHadAnIdea.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -76,27 +82,19 @@ export default () =>
       data-background-image={theFireDepartmentAsksForMoney}
     />
     <section data-background-color="#ACACAC" data-background-image={dontCallIfLightningStrike} />
-    <section>
-      <h1>⚡️ 🏠</h1>
-      <h1>i 💔</h1>
-    </section>
+    <section
+      data-background-color="#494949"
+      data-background-image={lightningStrikesAndRodIsBroken}
+    />
+    <section
+      data-background-color="#494949"
+      data-background-image={lightningStrikesWithBrokenRodAndRobotDoesntCare}
+    />
     <section data-background-color="#494949" data-background-image={houseOnFire} />
-    <section>
-      <h1>🤔</h1>
-    </section>
-    <section>
-      <h2>🌳🌷☀️</h2>
-    </section>
-    <section>
-      <h2>☄</h2>
-    </section>
-    <section data-background-color="#494949" data-background-image={houseOnFire} />
-    <section>
-      <h2>💡</h2>
-    </section>
-    <section>
-      <h2>🔥🔥🔥🔥🔥🔥🔥🔥🔥</h2>
-    </section>
+    <section data-background-color="#494949" data-background-image={thinkingInTheTrees} />
+    <section data-background-color="#494949" data-background-image={meteorFromTheSky} />
+    <section data-background-color="#494949" data-background-image={forestOnFire} />
+    <section data-background-color="#494949" data-background-image={youHadAnIdea} />
     <section>
       <h1>🔥 ➡ 🤖 ➡ 🚒</h1>
     </section>
