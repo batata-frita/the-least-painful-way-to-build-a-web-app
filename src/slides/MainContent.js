@@ -14,6 +14,7 @@ import newPhone from './image-slides/newPhone.svg'
 import lightningStrikeRobotPaysAttention from './image-slides/lightningStrikeRobotPaysAttention.svg'
 import fireDepartmentSavesYourHouseByRobotPayingAttention from './image-slides/fireDepartmentSavesYourHouseByRobotPayingAttention.svg'
 import phoneAboutToExplode from './image-slides/phoneAboutToExplode.svg'
+import brokenGameConsole from './image-slides/brokenGameConsole.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -53,9 +54,7 @@ export default () =>
       data-background-image={lightningStrikeRobotPaysAttention}
     />
     <section data-background-color="#494949" data-background-image={fireDepartmentSavesYourHouse} />
-    <section>
-      <h1>🎮 💔</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={brokenGameConsole} />
     <section>
       <h1>🏗 i🏡</h1>
     </section>
