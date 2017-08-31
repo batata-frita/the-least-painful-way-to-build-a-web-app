@@ -15,6 +15,7 @@ import lightningStrikeRobotPaysAttention from './image-slides/lightningStrikeRob
 import fireDepartmentSavesYourHouseByRobotPayingAttention from './image-slides/fireDepartmentSavesYourHouseByRobotPayingAttention.svg'
 import phoneAboutToExplode from './image-slides/phoneAboutToExplode.svg'
 import brokenGameConsole from './image-slides/brokenGameConsole.svg'
+import houseWithRod from './image-slides/houseWithRod.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -55,9 +56,7 @@ export default () =>
     />
     <section data-background-color="#494949" data-background-image={fireDepartmentSavesYourHouse} />
     <section data-background-color="#494949" data-background-image={brokenGameConsole} />
-    <section>
-      <h1>🏗 i🏡</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={houseWithRod} />
     <section data-background-color="#494949" data-background-image={lightningStrike} />
     <section>
       <h1>i🏠 😃</h1>
