@@ -8,6 +8,7 @@ import houseOnFire from './image-slides/houseOnFire.svg'
 import houseAndRobot from './image-slides/houseAndRobot.svg'
 import robotSleepingOnPhoneExplosion from './image-slides/robotSleepingOnPhoneExplosion.svg'
 import houseOnStartingFire from './image-slides/houseOnStartingFire.svg'
+import callFireDepartmentOnPhoneExplosion from './image-slides/callFireDepartmentOnPhoneExplosion.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -29,9 +30,10 @@ export default () =>
     <section>
       <h1>😱 📞 🚒</h1>
     </section>
-    <section>
-      <h1>📱 💥 ➡ 🤖 ➡ 🚒</h1>
-    </section>
+    <section
+      data-background-color="#ACACAC"
+      data-background-image={callFireDepartmentOnPhoneExplosion}
+    />
     <section>
       <h1>☎️</h1>
     </section>
