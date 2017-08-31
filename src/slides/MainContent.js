@@ -11,6 +11,9 @@ import houseOnStartingFire from './image-slides/houseOnStartingFire.svg'
 import callFireDepartmentOnPhoneExplosion from './image-slides/callFireDepartmentOnPhoneExplosion.svg'
 import humanCallFireDepartment from './image-slides/humanCallFireDepartment.svg'
 import newPhone from './image-slides/newPhone.svg'
+import lightningStrikeRobotPaysAttention from './image-slides/lightningStrikeRobotPaysAttention.svg'
+import fireDepartmentSavesYourHouseByRobotPayingAttention from './image-slides/fireDepartmentSavesYourHouseByRobotPayingAttention.svg'
+import phoneAboutToExplode from './image-slides/phoneAboutToExplode.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -21,15 +24,23 @@ export default () =>
       data-background-color="#ACACAC"
       data-background-image={callFireDepartmentOnLightningStrike}
     />
-    <section data-background-color="#494949" data-background-image={lightningStrike} />
-    <section data-background-color="#494949" data-background-image={fireDepartmentSavesYourHouse} />
+    <section
+      data-background-color="#494949"
+      data-background-image={lightningStrikeRobotPaysAttention}
+    />
+    <section
+      data-background-color="#494949"
+      data-background-image={fireDepartmentSavesYourHouseByRobotPayingAttention}
+    />
     <section data-background-color="#494949" data-background-image={happyHouse} />
+    <section data-background-color="#494949" data-background-image={phoneAboutToExplode} />
     <section data-background-color="#494949" data-background-image={explodingPhone} />
     <section
       data-background-color="#494949"
       data-background-image={robotSleepingOnPhoneExplosion}
     />
     <section data-background-color="#494949" data-background-image={humanCallFireDepartment} />
+    <section data-background-color="#494949" data-background-image={happyHouse} />
     <section
       data-background-color="#ACACAC"
       data-background-image={callFireDepartmentOnPhoneExplosion}
@@ -37,6 +48,10 @@ export default () =>
     <section data-background-color="#494949" data-background-image={newPhone} />
     <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#494949" data-background-image={lightningStrike} />
+    <section
+      data-background-color="#494949"
+      data-background-image={lightningStrikeRobotPaysAttention}
+    />
     <section data-background-color="#494949" data-background-image={fireDepartmentSavesYourHouse} />
     <section>
       <h1>🎮 💔</h1>
