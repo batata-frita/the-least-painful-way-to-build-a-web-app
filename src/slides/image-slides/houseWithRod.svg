@@ -13,14 +13,13 @@
                 <polygon id="Shape" fill="#FF5858" points="449 132.593598 449 149.595245 293.26794 149.595245 285.203898 149.595245 270.971142 149.595245 270.778052 149.595245 270.778052 149.422999 142.60703 28.780202 0 163 0 134.2046 142.60703 0 283.491495 132.593598"></polygon>
                 <path d="M271,156 L271,272 L437,272 L437,156 L271,156 Z M405.505465,240.187207 L304.21733,240.187207 L304.21733,184.626977 L405.505465,184.626977 L405.505465,240.187207 Z" id="Shape" fill="#FFFFFF"></path>
             </g>
-            <g id="noun_634617" transform="translate(506.000000, 439.000000)" stroke-linecap="round" stroke="#FFFFFF" stroke-width="6">
-                <g id="Group" transform="translate(741.000000, 0.000000)">
-                    <path d="M34,0.467732779 L34,384" id="Shape"></path>
-                    <path d="M0,385 L66,385" id="Shape"></path>
-                    <path d="M8,396 L56,396" id="Shape"></path>
-                    <path d="M18,407 L48,407" id="Shape"></path>
-                    <path d="M26,418 L38,418" id="Shape"></path>
-                </g>
+            <g id="noun_634617" transform="translate(506.000000, 763.000000)"></g>
+            <g id="Group" transform="translate(1256.000000, 462.000000)" stroke="#FFFFFF" stroke-width="7">
+                <path d="M45.3333333,0.47770266 L45.3333333,330" id="Shape"></path>
+                <path d="M0,331 L91,331" id="Shape"></path>
+                <path d="M13,347 L79,347" id="Shape"></path>
+                <path d="M25,362 L66,362" id="Shape"></path>
+                <path d="M38,377 L54,377" id="Shape"></path>
             </g>
         </g>
     </g>

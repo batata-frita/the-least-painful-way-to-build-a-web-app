@@ -16,6 +16,11 @@ import fireDepartmentSavesYourHouseByRobotPayingAttention from './image-slides/f
 import phoneAboutToExplode from './image-slides/phoneAboutToExplode.svg'
 import brokenGameConsole from './image-slides/brokenGameConsole.svg'
 import houseWithRod from './image-slides/houseWithRod.svg'
+import houseSavedByTheRod from './image-slides/houseSavedByTheRod.svg'
+import robotCallsFireDepartmentEvenIfRodSavedHouse from './image-slides/robotCallsFireDepartmentEvenIfRodSavedHouse.svg'
+import fireDepartmentComesAndThereIsNoFire from './image-slides/fireDepartmentComesAndThereIsNoFire.svg'
+import theFireDepartmentAsksForMoney from './image-slides/theFireDepartmentAsksForMoney.svg'
+import dontCallIfLightningStrike from './image-slides/dontCallIfLightningStrike.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -57,17 +62,20 @@ export default () =>
     <section data-background-color="#494949" data-background-image={fireDepartmentSavesYourHouse} />
     <section data-background-color="#494949" data-background-image={brokenGameConsole} />
     <section data-background-color="#494949" data-background-image={houseWithRod} />
-    <section data-background-color="#494949" data-background-image={lightningStrike} />
-    <section>
-      <h1>i🏠 😃</h1>
-      <h1>🤖 📞 🚒</h1>
-    </section>
-    <section>
-      <h1>🚒 💸</h1>
-    </section>
-    <section>
-      <h1>⚡️ ➡ 🤖 ➡ 🚫 🚒</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={houseSavedByTheRod} />
+    <section
+      data-background-color="#494949"
+      data-background-image={robotCallsFireDepartmentEvenIfRodSavedHouse}
+    />
+    <section
+      data-background-color="#494949"
+      data-background-image={fireDepartmentComesAndThereIsNoFire}
+    />
+    <section
+      data-background-color="#494949"
+      data-background-image={theFireDepartmentAsksForMoney}
+    />
+    <section data-background-color="#ACACAC" data-background-image={dontCallIfLightningStrike} />
     <section>
       <h1>⚡️ 🏠</h1>
       <h1>i 💔</h1>
