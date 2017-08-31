@@ -10,6 +10,7 @@ import robotSleepingOnPhoneExplosion from './image-slides/robotSleepingOnPhoneEx
 import houseOnStartingFire from './image-slides/houseOnStartingFire.svg'
 import callFireDepartmentOnPhoneExplosion from './image-slides/callFireDepartmentOnPhoneExplosion.svg'
 import humanCallFireDepartment from './image-slides/humanCallFireDepartment.svg'
+import newPhone from './image-slides/newPhone.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -33,16 +34,10 @@ export default () =>
       data-background-color="#ACACAC"
       data-background-image={callFireDepartmentOnPhoneExplosion}
     />
-    <section>
-      <h1>☎️</h1>
-    </section>
-    <section>
-      <h1>💥 🚫</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={newPhone} />
+    <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#494949" data-background-image={lightningStrike} />
-    <section>
-      <h1>🤖 📞 🚒</h1>
-    </section>
+    <section data-background-color="#494949" data-background-image={fireDepartmentSavesYourHouse} />
     <section>
       <h1>🎮 💔</h1>
     </section>
