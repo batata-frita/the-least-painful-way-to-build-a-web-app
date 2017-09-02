@@ -36,7 +36,8 @@ import thinkingInTheTrees from './image-slides/thinkingInTheTrees.svg'
 import youHadAnIdea from './image-slides/youHadAnIdea.svg'
 
 export default () =>
-  <section data-background-color="#ACACAC">
+  <section>
+    <section data-background-color="#494949" />
     <section data-background-color="#494949" data-background-image={lightningStrike} />
     <section data-background-color="#494949" data-background-image={houseOnFire} />
     <section data-background-color="#494949" data-background-image={houseAndRobot} />
@@ -103,10 +104,10 @@ export default () =>
     <section data-background-color="#494949" data-background-image={meteorFromTheSky} />
     <section data-background-color="#494949" data-background-image={forestOnFire} />
     <section data-background-color="#494949" data-background-image={youHadAnIdea} />
-    <section data-background-color="#494949" data-background-image={allActionsToEffect} />
-    <section data-background-color="#494949" data-background-image={actionsToStateWithFire} />
-    <section data-background-color="#494949" data-background-image={actionsToStateWithoutFire} />
-    <section data-background-color="#494949" data-background-image={stateToEffect} />
+    <section data-background-color="#ACACAC" data-background-image={allActionsToEffect} />
+    <section data-background-color="#ACACAC" data-background-image={actionsToStateWithFire} />
+    <section data-background-color="#ACACAC" data-background-image={actionsToStateWithoutFire} />
+    <section data-background-color="#ACACAC" data-background-image={stateToEffect} />
     <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#494949" data-background-image={bitcoinMining} />
     <section data-background-color="#494949" data-background-image={bitcoinMiningExplosion} />
