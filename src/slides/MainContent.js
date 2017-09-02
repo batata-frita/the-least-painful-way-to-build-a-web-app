@@ -27,6 +27,13 @@ import thinkingInTheTrees from './image-slides/thinkingInTheTrees.svg'
 import meteorFromTheSky from './image-slides/meteorFromTheSky.svg'
 import forestOnFire from './image-slides/forestOnFire.svg'
 import youHadAnIdea from './image-slides/youHadAnIdea.svg'
+import allActionsToEffect from './image-slides/allActionsToEffect.svg'
+import actionsToStateWithFire from './image-slides/actionsToStateWithFire.svg'
+import actionsToStateWithoutFire from './image-slides/actionsToStateWithoutFire.svg'
+import stateToEffect from './image-slides/stateToEffect.svg'
+import robotCallingOnFireStarting from './image-slides/robotCallingOnFireStarting.svg'
+import bitcoinMining from './image-slides/bitcoinMining.svg'
+import bitcoinMiningExplosion from './image-slides/bitcoinMiningExplosion.svg'
 
 export default () =>
   <section data-background-color="#ACACAC">
@@ -96,23 +103,18 @@ export default () =>
     <section data-background-color="#494949" data-background-image={meteorFromTheSky} />
     <section data-background-color="#494949" data-background-image={forestOnFire} />
     <section data-background-color="#494949" data-background-image={youHadAnIdea} />
-    <section>
-      <h1>🔥 ➡ 🤖 ➡ 🚒</h1>
-    </section>
-    <section>
-      <h1>💻</h1>
-      <code>npm install</code>
-    </section>
+    <section data-background-color="#494949" data-background-image={allActionsToEffect} />
+    <section data-background-color="#494949" data-background-image={actionsToStateWithFire} />
+    <section data-background-color="#494949" data-background-image={actionsToStateWithoutFire} />
+    <section data-background-color="#494949" data-background-image={stateToEffect} />
+    <section data-background-color="#494949" data-background-image={happyHouse} />
+    <section data-background-color="#494949" data-background-image={bitcoinMining} />
+    <section data-background-color="#494949" data-background-image={bitcoinMiningExplosion} />
     <section data-background-color="#494949" data-background-image={houseOnStartingFire} />
-    <section>
-      <h1>🤖 📞 🚒</h1>
-    </section>
-    <section>
-      <h1>🏡☀️😎</h1>
-      <h1>💻</h1>
-    </section>
-    <section>
-      <quote>An event on its own is meaninless...</quote>
-      <quote>You react on reality.</quote>
-    </section>
+    <section data-background-color="#494949" data-background-image={robotCallingOnFireStarting} />
+    <section
+      data-background-color="#494949"
+      data-background-image={fireDepartmentSavesYourHouseByRobotPayingAttention}
+    />
+    <section data-background-color="#494949" data-background-image={happyHouse} />
   </section>
