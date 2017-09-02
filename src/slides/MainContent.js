@@ -4,9 +4,14 @@ import allActionsToEffect from './image-slides/allActionsToEffect.svg'
 import bitcoinMining from './image-slides/bitcoinMining.svg'
 import bitcoinMiningExplosion from './image-slides/bitcoinMiningExplosion.svg'
 import blueprintAllEvents from './image-slides/blueprintAllEvents.svg'
+import blueprintAllStates from './image-slides/blueprintAllStates.svg'
+import blueprintConnectingUpdate from './image-slides/blueprintConnectingUpdate.svg'
+import blueprintDefiningUpdate from './image-slides/blueprintDefiningUpdate.svg'
 import blueprintEventsWithKnownActions from './image-slides/blueprintEventsWithKnownActions.svg'
 import blueprintIntroducingAddLightningRod from './image-slides/blueprintIntroducingAddLightningRod.svg'
 import blueprintIntroducingFireTruckComing from './image-slides/blueprintIntroducingFireTruckComing.svg'
+import blueprintIntroducingState from './image-slides/blueprintIntroducingState.svg'
+import blueprintIntroducingUpdate from './image-slides/blueprintIntroducingUpdate.svg'
 import blueprintOnlyEvents from './image-slides/blueprintOnlyEvents.svg'
 import blueprintOverlay from './image-slides/blueprintOverlay.svg'
 import brokenGameConsole from './image-slides/brokenGameConsole.svg'
@@ -129,6 +134,11 @@ export default () =>
       data-background-image={blueprintIntroducingFireTruckComing}
     />
     <section data-background-color="#4D70B8" data-background-image={blueprintAllEvents} />
+    <section data-background-color="#4D70B8" data-background-image={blueprintIntroducingState} />
+    <section data-background-color="#4D70B8" data-background-image={blueprintAllStates} />
+    <section data-background-color="#4D70B8" data-background-image={blueprintIntroducingUpdate} />
+    <section data-background-color="#4D70B8" data-background-image={blueprintConnectingUpdate} />
+    <section data-background-color="#4D70B8" data-background-image={blueprintDefiningUpdate} />
     <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#494949" data-background-image={bitcoinMining} />
     <section data-background-color="#494949" data-background-image={bitcoinMiningExplosion} />
