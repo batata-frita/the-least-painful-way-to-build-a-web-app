@@ -37,6 +37,7 @@ export default () =>
       data-background-color="#ACACAC"
       data-background-image={callFireDepartmentOnLightningStrike}
     />
+    <section data-background-color="#494949" data-background-image={lightningStrike} />
     <section
       data-background-color="#494949"
       data-background-image={lightningStrikeRobotPaysAttention}
