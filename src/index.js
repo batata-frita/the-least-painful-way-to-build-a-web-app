@@ -13,5 +13,8 @@ render(<Slides />, document.getElementById('root'), () =>
     history: true,
     transitionSpeed: 'fast',
     backgroundTransition: 'none',
+    keyboard: {
+      34: 'next',
+    },
   })
 )
