@@ -3,6 +3,7 @@ import actionsToStateWithoutFire from './image-slides/actionsToStateWithoutFire.
 import allActionsToEffect from './image-slides/allActionsToEffect.svg'
 import bitcoinMining from './image-slides/bitcoinMining.svg'
 import bitcoinMiningExplosion from './image-slides/bitcoinMiningExplosion.svg'
+import blueprintAll from './image-slides/blueprintAll.svg'
 import blueprintAllEvents from './image-slides/blueprintAllEvents.svg'
 import blueprintAllStates from './image-slides/blueprintAllStates.svg'
 import blueprintConnectingUpdate from './image-slides/blueprintConnectingUpdate.svg'
@@ -14,10 +15,14 @@ import blueprintIntroducingState from './image-slides/blueprintIntroducingState.
 import blueprintIntroducingUpdate from './image-slides/blueprintIntroducingUpdate.svg'
 import blueprintOnlyEvents from './image-slides/blueprintOnlyEvents.svg'
 import blueprintOverlay from './image-slides/blueprintOverlay.svg'
+import blueprintOverOriginalApproach from './image-slides/blueprintOverOriginalApproach.svg'
+import blueprintTheUpdateFunction from './image-slides/blueprintTheUpdateFunction.svg'
+import blueprintWhatOriginalApproachWasMissing from './image-slides/blueprintWhatOriginalApproachWasMissing.svg'
 import brokenGameConsole from './image-slides/brokenGameConsole.svg'
 import callFireDepartmentOnLightningStrike from './image-slides/callFireDepartmentOnLightningStrike.svg'
 import callFireDepartmentOnPhoneExplosion from './image-slides/callFireDepartmentOnPhoneExplosion.svg'
 import dontCallIfLightningStrike from './image-slides/dontCallIfLightningStrike.svg'
+import effectsAreAFunctionOfState from './image-slides/effectsAreAFunctionOfState.svg'
 import explodingPhone from './image-slides/explodingPhone.svg'
 import fireDepartmentComesAndThereIsNoFire from './image-slides/fireDepartmentComesAndThereIsNoFire.svg'
 import fireDepartmentSavesYourHouse from './image-slides/fireDepartmentSavesYourHouse.svg'
@@ -41,7 +46,9 @@ import React from 'react'
 import robotCallingOnFireStarting from './image-slides/robotCallingOnFireStarting.svg'
 import robotCallsFireDepartmentEvenIfRodSavedHouse from './image-slides/robotCallsFireDepartmentEvenIfRodSavedHouse.svg'
 import robotSleepingOnPhoneExplosion from './image-slides/robotSleepingOnPhoneExplosion.svg'
+import sideEffectsAreAFunctionOfState from './image-slides/sideEffectsAreAFunctionOfState.svg'
 import stateToEffect from './image-slides/stateToEffect.svg'
+import thankYou from './image-slides/thankYou.svg'
 import theFireDepartmentAsksForMoney from './image-slides/theFireDepartmentAsksForMoney.svg'
 import thinkingInTheTrees from './image-slides/thinkingInTheTrees.svg'
 import youHadAnIdea from './image-slides/youHadAnIdea.svg'
@@ -139,6 +146,25 @@ export default () =>
     <section data-background-color="#4D70B8" data-background-image={blueprintIntroducingUpdate} />
     <section data-background-color="#4D70B8" data-background-image={blueprintConnectingUpdate} />
     <section data-background-color="#4D70B8" data-background-image={blueprintDefiningUpdate} />
+    <section data-background-color="#4D70B8" data-background-image={effectsAreAFunctionOfState} />
+    <section
+      data-background-color="#4D70B8"
+      data-background-image={sideEffectsAreAFunctionOfState}
+    />
+    <section
+      data-background-color="#ACACAC"
+      data-background-image={callFireDepartmentOnLightningStrike}
+    />
+    <section
+      data-background-color="#ACACAC"
+      data-background-image={blueprintOverOriginalApproach}
+    />
+    <section
+      data-background-color="#4D70B8"
+      data-background-image={blueprintWhatOriginalApproachWasMissing}
+    />
+    <section data-background-color="#4D70B8" data-background-image={blueprintTheUpdateFunction} />
+    <section data-background-color="#4D70B8" data-background-image={blueprintAll} />
     <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#494949" data-background-image={bitcoinMining} />
     <section data-background-color="#494949" data-background-image={bitcoinMiningExplosion} />
@@ -149,4 +175,5 @@ export default () =>
       data-background-image={fireDepartmentSavesYourHouseByRobotPayingAttention}
     />
     <section data-background-color="#494949" data-background-image={happyHouse} />
+    <section data-background-color="#C15454" data-background-image={thankYou} />
   </section>

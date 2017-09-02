@@ -6,10 +6,12 @@
     <defs></defs>
     <g id="Actual-Slides" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="blueprintOnlyEvents">
-            <rect id="Rectangle-7" stroke="#FFFFFF" stroke-width="5" x="142.5" y="154.5" width="435" height="213"></rect>
-            <text id="EVENTS" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="72" font-weight="bold" letter-spacing="2" fill="#FFFFFF">
-                <tspan x="213" y="280">EVENTS</tspan>
-            </text>
+            <g id="Events-Block" transform="translate(163.000000, 220.000000)">
+                <rect id="Rectangle-7" stroke="#FFFFFF" stroke-width="5" x="2.5" y="2.5" width="435" height="215"></rect>
+                <text id="EVENTS" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="72" font-weight="bold" letter-spacing="2" fill="#FFFFFF">
+                    <tspan x="73" y="137">EVENTS</tspan>
+                </text>
+            </g>
         </g>
     </g>
 </svg>
