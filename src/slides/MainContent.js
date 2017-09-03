@@ -18,7 +18,6 @@ import blueprintIntroducingUpdate from './image-slides/blueprintIntroducingUpdat
 import blueprintOnlyEvents from './image-slides/blueprintOnlyEvents.svg'
 import blueprintOverlay from './image-slides/blueprintOverlay.svg'
 import blueprintOverOriginalApproach from './image-slides/blueprintOverOriginalApproach.svg'
-import blueprintTheUpdateFunction from './image-slides/blueprintTheUpdateFunction.svg'
 import blueprintWhatOriginalApproachWasMissing from './image-slides/blueprintWhatOriginalApproachWasMissing.svg'
 import brokenGameConsole from './image-slides/brokenGameConsole.svg'
 import callFireDepartmentOnLightningStrike from './image-slides/callFireDepartmentOnLightningStrike.svg'
@@ -48,7 +47,6 @@ import React from 'react'
 import robotCallingOnFireStarting from './image-slides/robotCallingOnFireStarting.svg'
 import robotCallsFireDepartmentEvenIfRodSavedHouse from './image-slides/robotCallsFireDepartmentEvenIfRodSavedHouse.svg'
 import robotSleepingOnPhoneExplosion from './image-slides/robotSleepingOnPhoneExplosion.svg'
-import sideEffectsAreAFunctionOfState from './image-slides/sideEffectsAreAFunctionOfState.svg'
 import stateToEffect from './image-slides/stateToEffect.svg'
 import thankYou from './image-slides/thankYou.svg'
 import theFireDepartmentAsksForMoney from './image-slides/theFireDepartmentAsksForMoney.svg'
@@ -88,7 +86,6 @@ export default () =>
       data-background-image={callFireDepartmentOnPhoneExplosion}
     />
     <section data-background-color="#494949" data-background-image={newPhone} />
-    <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#494949" data-background-image={lightningStrike} />
     <section
       data-background-color="#494949"
@@ -174,6 +171,5 @@ export default () =>
       data-background-color="#494949"
       data-background-image={fireDepartmentSavesYourHouseByRobotPayingAttention}
     />
-    <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#C15454" data-background-image={thankYou} />
   </section>
