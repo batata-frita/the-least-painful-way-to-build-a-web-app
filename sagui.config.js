@@ -3,7 +3,7 @@
  * see: http://sagui.js.org/
  */
 module.exports = {
-  pages: ['index', 'demo'],
+  pages: ['index'],
   style: {
     cssModules: false,
   },

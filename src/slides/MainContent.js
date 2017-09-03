@@ -1,6 +1,8 @@
+import aboutToMineBitcoin from './image-slides/aboutToMineBitcoin.svg'
 import actionsToStateWithFire from './image-slides/actionsToStateWithFire.svg'
 import actionsToStateWithoutFire from './image-slides/actionsToStateWithoutFire.svg'
 import allActionsToEffect from './image-slides/allActionsToEffect.svg'
+import bitcoinKeepMining from './image-slides/bitcoinKeepMining.svg'
 import bitcoinMining from './image-slides/bitcoinMining.svg'
 import bitcoinMiningExplosion from './image-slides/bitcoinMiningExplosion.svg'
 import blueprintAll from './image-slides/blueprintAll.svg'
@@ -147,10 +149,7 @@ export default () =>
     <section data-background-color="#4D70B8" data-background-image={blueprintConnectingUpdate} />
     <section data-background-color="#4D70B8" data-background-image={blueprintDefiningUpdate} />
     <section data-background-color="#4D70B8" data-background-image={effectsAreAFunctionOfState} />
-    <section
-      data-background-color="#4D70B8"
-      data-background-image={sideEffectsAreAFunctionOfState}
-    />
+    <section data-background-color="#4D70B8" data-background-image={blueprintAll} />
     <section
       data-background-color="#ACACAC"
       data-background-image={callFireDepartmentOnLightningStrike}
@@ -163,10 +162,11 @@ export default () =>
       data-background-color="#4D70B8"
       data-background-image={blueprintWhatOriginalApproachWasMissing}
     />
-    <section data-background-color="#4D70B8" data-background-image={blueprintTheUpdateFunction} />
     <section data-background-color="#4D70B8" data-background-image={blueprintAll} />
     <section data-background-color="#494949" data-background-image={happyHouse} />
+    <section data-background-color="#494949" data-background-image={aboutToMineBitcoin} />
     <section data-background-color="#494949" data-background-image={bitcoinMining} />
+    <section data-background-color="#494949" data-background-image={bitcoinKeepMining} />
     <section data-background-color="#494949" data-background-image={bitcoinMiningExplosion} />
     <section data-background-color="#494949" data-background-image={houseOnStartingFire} />
     <section data-background-color="#494949" data-background-image={robotCallingOnFireStarting} />
