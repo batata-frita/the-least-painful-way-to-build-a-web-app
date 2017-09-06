@@ -2,6 +2,8 @@
 
 ### Web app: Login
 
+This could be the insurance form.
+
 Events:
 
 - User clicks "login"
@@ -29,6 +31,8 @@ Effects:
   - POST /login
 
 ### Server side: shipping information for shopping cart
+
+This is refurnishing the house.
 
 Events:
 
