@@ -22,7 +22,6 @@ import blueprintWhatOriginalApproachWasMissing from './image-slides/blueprintWha
 import brokenGameConsole from './image-slides/brokenGameConsole.svg'
 import callFireDepartmentOnLightningStrike from './image-slides/callFireDepartmentOnLightningStrike.svg'
 import callFireDepartmentOnPhoneExplosion from './image-slides/callFireDepartmentOnPhoneExplosion.svg'
-import chapter2EffectsAreAFunctionOfState from './image-slides/chapter2EffectsAreAFunctionOfState.svg'
 import chapter2EffectsFState from './image-slides/chapter2EffectsFState.svg'
 import chapter3PracticalExamples from './image-slides/chapter3PracticalExamples.svg'
 import dontCallIfLightningStrike from './image-slides/dontCallIfLightningStrike.svg'
@@ -141,10 +140,6 @@ export default () =>
     <section data-background-color="#ACACAC" data-background-image={actionsToStateWithFire} />
     <section data-background-color="#ACACAC" data-background-image={actionsToStateWithoutFire} />
     <section data-background-color="#ACACAC" data-background-image={stateToEffect} />
-    <section
-      data-background-color="#F2F2F2"
-      data-background-image={chapter2EffectsAreAFunctionOfState}
-    />
     <section data-background-color="#F2F2F2" data-background-image={chapter2EffectsFState} />
     <section data-background-color="#ACACAC" data-background-image={blueprintOverlay} />
     <section data-background-color="#4D70B8" data-background-image={blueprintOnlyEvents} />
