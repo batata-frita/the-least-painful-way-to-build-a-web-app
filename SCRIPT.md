@@ -125,11 +125,11 @@ But we are missing something here: we need a way for the events to affect the st
 
 46. which gets an event and the current state of reality and creates a new version of it.
 
-47. The update function is a description of the transformation that the state will undergo when a given event happens, using the current state as a starting point.
+47. The update function is a description of the transformation that the state will undergo when a given event happens, using the current state as a starting point. In this particular case, what we have is wether there is a lighting rod installed and if a fire is going to happen (IMPROVE THIS).
 
 ### Effects (Paulo)
 
-48.
+48. then we can start doing effects based on it. We are not conserned about how the current state came to be. (CHANGE THE SLIDE TO PUT IT IN THE CORRECT STATE TO CALL THE FIRE DEPARTMENT)
 
 49. We can see the whole picture
 
@@ -139,7 +139,7 @@ But we are missing something here: we need a way for the events to affect the st
 
 51. (we can see what it's wrong, we are missing the description of how the events affect reality)
 
-52. (bypassing)
+52. (bypassing) It is just a clear unidirectional flow from events to effects
 
 ## Bitcoin mining (Paulo)
 
