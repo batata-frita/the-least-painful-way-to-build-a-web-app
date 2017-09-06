@@ -1,0 +1,22 @@
+- The user enters information
+- Writing action happens
+- Introduces data state
+- The user tries to submit, validation fails
+- State for the failed field turns red
+- Repainting with a red error message for the field happens
+- Users changes information (writing action)
+- State is no longer red
+- Users tries to submit, validation succeeds
+- Try to connect is put in the state
+- Repaint for spinning wheel happens, request happens
+- Request failed action happens
+- Introduce the request failed event
+- State for "try" is set to two
+- Request happens again
+- Request failed action happens
+- State for "try" is set to three
+- Repaint for error message, request happens
+- Response with success happens
+- Action for "logged in" is introduced
+- State for "try to sync" is removed, password is removed, state for "logged it" (some checkmark) is added
+- Repaint with "head bubble", the "name" and a checkmark happens (green stuff)
