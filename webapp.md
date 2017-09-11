@@ -2,10 +2,10 @@
 - Writing action happens
 - Introduces data state
 - The user tries to submit, validation fails
-- State for the failed field turns red
-- Repainting with a red error message for the field happens
+- State for the failed field has a warning sign
+- Repainting with a red border for the field happens
 - Users changes information (writing action)
-- State is no longer red
+- State has no longer warning sign
 - Users tries to submit, validation succeeds
 - Try to connect is put in the state
 - Repaint for spinning wheel happens, request happens
