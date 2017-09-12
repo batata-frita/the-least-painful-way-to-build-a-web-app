@@ -1,6 +1,12 @@
+# TODO
+
+- [ ] Replace gear with program in kafka introduction
+
 ## Practical examples
 
 ### Web app: Login
+
+This could be the insurance form.
 
 Events:
 
@@ -29,6 +35,8 @@ Effects:
   - POST /login
 
 ### Server side: shipping information for shopping cart
+
+This is refurnishing the house.
 
 Events:
 

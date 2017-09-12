@@ -1,0 +1,13 @@
+- Item (book, $25, 0.5kg in weight) is added to the queue
+- Introduce new item event
+- Introduce shopping cart state with added book
+- Trigger effect of putting in the other queue that the shipping option for this order is now:
+  - $5 shipping cost
+  - worldwide delivery
+- Item (game, $30, 0.2kg in weight) is added to the queue
+- Update shopping cart state with added game
+- Item (grand piano, $6 500, 220 kg) is added to the queue
+- Update shopping cart with the added piano
+- Trigger effect of putting in the order queue that the shipping option for the order is now:
+  - $150
+  - only in your country (Sweden I guess)
