@@ -54,9 +54,49 @@ import thankYou from './image-slides/thankYou.svg'
 import theFireDepartmentAsksForMoney from './image-slides/theFireDepartmentAsksForMoney.svg'
 import thinkingInTheTrees from './image-slides/thinkingInTheTrees.svg'
 import youHadAnIdea from './image-slides/youHadAnIdea.svg'
+import kafka00 from './image-slides/kafka00.svg'
+import kafka01 from './image-slides/kafka01.svg'
+import kafka02 from './image-slides/kafka02.svg'
+import kafka03 from './image-slides/kafka03.svg'
+import kafka04 from './image-slides/kafka04.svg'
+import kafka05 from './image-slides/kafka05.svg'
+import kafka06 from './image-slides/kafka06.svg'
+import kafka07 from './image-slides/kafka07.svg'
+import kafka08 from './image-slides/kafka08.svg'
+import kafka09 from './image-slides/kafka09.svg'
+import kafka10 from './image-slides/kafka10.svg'
+import kafka11 from './image-slides/kafka11.svg'
+import kafka12 from './image-slides/kafka12.svg'
+import kafka13 from './image-slides/kafka13.svg'
+import faces from './image-slides/faces.png'
+
+import login01 from './image-slides/login01.svg'
+import login03 from './image-slides/login03.svg'
+import login04 from './image-slides/login04.svg'
+import login05 from './image-slides/login05.svg'
+import login06 from './image-slides/login06.svg'
+import login07 from './image-slides/login07.svg'
+import login08 from './image-slides/login08.svg'
+import login09 from './image-slides/login09.svg'
+import login10 from './image-slides/login10.svg'
+import login11 from './image-slides/login11.svg'
+import login12 from './image-slides/login12.svg'
+import login13 from './image-slides/login13.svg'
+import login14 from './image-slides/login14.svg'
+import login15 from './image-slides/login15.svg'
+import login16 from './image-slides/login16.svg'
+import login17 from './image-slides/login17.svg'
+import login18 from './image-slides/login18.svg'
+import login19 from './image-slides/login19.svg'
+import login20 from './image-slides/login20.svg'
+import login21 from './image-slides/login21.svg'
+import login22 from './image-slides/login22.svg'
+import login23 from './image-slides/login23.svg'
+import loginFormOverview from './image-slides/loginFormOverview.svg'
 
 export default () =>
   <section>
+    <section data-background-color="#494949" data-background-image={faces} />
     <section data-background-color="#494949" />
     <section data-background-color="#494949" data-background-image={lightningStrike} />
     <section data-background-color="#494949" data-background-image={houseOnFire} />
@@ -164,7 +204,43 @@ export default () =>
     />
     <section data-background-color="#4D70B8" data-background-image={blueprintAll} />
     <section data-background-color="#F2F2F2" data-background-image={chapter3PracticalExamples} />
-
+    <section data-background-color="#ACACAC" data-background-image={kafka00} />
+    <section data-background-color="#4D70B8" data-background-image={kafka01} />
+    <section data-background-color="#4D70B8" data-background-image={kafka02} />
+    <section data-background-color="#4D70B8" data-background-image={kafka03} />
+    <section data-background-color="#4D70B8" data-background-image={kafka04} />
+    <section data-background-color="#4D70B8" data-background-image={kafka05} />
+    <section data-background-color="#4D70B8" data-background-image={kafka06} />
+    <section data-background-color="#4D70B8" data-background-image={kafka07} />
+    <section data-background-color="#4D70B8" data-background-image={kafka08} />
+    <section data-background-color="#4D70B8" data-background-image={kafka09} />
+    <section data-background-color="#4D70B8" data-background-image={kafka10} />
+    <section data-background-color="#4D70B8" data-background-image={kafka11} />
+    <section data-background-color="#4D70B8" data-background-image={kafka12} />
+    <section data-background-color="#4D70B8" data-background-image={kafka13} />
+    <section data-background-color="#FFFFFF" data-background-image={loginFormOverview} />
+    <section data-background-color="#4D70B8" data-background-image={login01} />
+    <section data-background-color="#4D70B8" data-background-image={login03} />
+    <section data-background-color="#4D70B8" data-background-image={login04} />
+    <section data-background-color="#4D70B8" data-background-image={login05} />
+    <section data-background-color="#4D70B8" data-background-image={login06} />
+    <section data-background-color="#4D70B8" data-background-image={login07} />
+    <section data-background-color="#4D70B8" data-background-image={login08} />
+    <section data-background-color="#4D70B8" data-background-image={login09} />
+    <section data-background-color="#4D70B8" data-background-image={login10} />
+    <section data-background-color="#4D70B8" data-background-image={login11} />
+    <section data-background-color="#4D70B8" data-background-image={login12} />
+    <section data-background-color="#4D70B8" data-background-image={login13} />
+    <section data-background-color="#4D70B8" data-background-image={login14} />
+    <section data-background-color="#4D70B8" data-background-image={login15} />
+    <section data-background-color="#4D70B8" data-background-image={login16} />
+    <section data-background-color="#4D70B8" data-background-image={login17} />
+    <section data-background-color="#4D70B8" data-background-image={login18} />
+    <section data-background-color="#4D70B8" data-background-image={login19} />
+    <section data-background-color="#4D70B8" data-background-image={login20} />
+    <section data-background-color="#4D70B8" data-background-image={login21} />
+    <section data-background-color="#4D70B8" data-background-image={login22} />
+    <section data-background-color="#4D70B8" data-background-image={login23} />
     <section data-background-color="#F2F2F2" />
     <section data-background-color="#494949" data-background-image={happyHouse} />
     <section data-background-color="#494949" data-background-image={aboutToMineBitcoin} />
