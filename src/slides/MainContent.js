@@ -42,19 +42,6 @@ import lightningStrike from './image-slides/lightningStrike.svg'
 import lightningStrikeRobotPaysAttention from './image-slides/lightningStrikeRobotPaysAttention.svg'
 import lightningStrikesAndRodIsBroken from './image-slides/lightningStrikesAndRodIsBroken.svg'
 import lightningStrikesWithBrokenRodAndRobotDoesntCare from './image-slides/lightningStrikesWithBrokenRodAndRobotDoesntCare.svg'
-import loginForm from './image-slides/loginForm.svg'
-import loginFormIntroducingFailedRequestEvent from './image-slides/loginFormIntroducingFailedRequestEvent.svg'
-import loginFormIntroducingLoginEvent from './image-slides/loginFormIntroducingLoginEvent.svg'
-import loginFormIntroducingRender from './image-slides/loginFormIntroducingRender.svg'
-import loginFormIntroducingRetry from './image-slides/loginFormIntroducingRetry.svg'
-import loginFormLoginEvent from './image-slides/loginFormLoginEvent.svg'
-import loginFormLoginEventIntroducingLogingInState from './image-slides/loginFormLoginEventIntroducingLogingInState.svg'
-import loginFormReactingOnRetry from './image-slides/loginFormReactingOnRetry.svg'
-import loginFormReactingOnSecondRetry from './image-slides/loginFormReactingOnSecondRetry.svg'
-import loginFormReactingOnThirdRetry from './image-slides/loginFormReactingOnThirdRetry.svg'
-import loginFormRequestFails from './image-slides/loginFormRequestFails.svg'
-import loginFormSubmittingLoginRequest from './image-slides/loginFormSubmittingLoginRequest.svg'
-import loginFormUserState from './image-slides/loginFormUserState.svg'
 import meteorFromTheSky from './image-slides/meteorFromTheSky.svg'
 import newPhone from './image-slides/newPhone.svg'
 import phoneAboutToExplode from './image-slides/phoneAboutToExplode.svg'
@@ -177,38 +164,6 @@ export default () =>
     />
     <section data-background-color="#4D70B8" data-background-image={blueprintAll} />
     <section data-background-color="#F2F2F2" data-background-image={chapter3PracticalExamples} />
-
-    <section data-background-color="#1A1A1A" data-background-image={loginForm} />
-    <section data-background-color="#1A1A1A" data-background-image={loginFormIntroducingRender} />
-    <section data-background-color="#1A1A1A" data-background-image={loginFormUserState} />
-    <section
-      data-background-color="#1A1A1A"
-      data-background-image={loginFormIntroducingLoginEvent}
-    />
-    <section data-background-color="#1A1A1A" data-background-image={loginFormLoginEvent} />
-    <section
-      data-background-color="#1A1A1A"
-      data-background-image={loginFormLoginEventIntroducingLogingInState}
-    />
-    <section
-      data-background-color="#1A1A1A"
-      data-background-image={loginFormSubmittingLoginRequest}
-    />
-    <section data-background-color="#1A1A1A" data-background-image={loginFormRequestFails} />
-    <section
-      data-background-color="#1A1A1A"
-      data-background-image={loginFormIntroducingFailedRequestEvent}
-    />
-    <section data-background-color="#1A1A1A" data-background-image={loginFormIntroducingRetry} />
-    <section data-background-color="#1A1A1A" data-background-image={loginFormReactingOnRetry} />
-    <section
-      data-background-color="#1A1A1A"
-      data-background-image={loginFormReactingOnSecondRetry}
-    />
-    <section
-      data-background-color="#1A1A1A"
-      data-background-image={loginFormReactingOnThirdRetry}
-    />
 
     <section data-background-color="#F2F2F2" />
     <section data-background-color="#494949" data-background-image={happyHouse} />
