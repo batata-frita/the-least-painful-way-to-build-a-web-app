@@ -86,9 +86,11 @@ import login14 from './image-slides/login14.svg'
 import login15 from './image-slides/login15.svg'
 import login16 from './image-slides/login16.svg'
 import login17 from './image-slides/login17.svg'
+import login17b from './image-slides/login17b.svg'
 import login18 from './image-slides/login18.svg'
 import login19 from './image-slides/login19.svg'
 import login20 from './image-slides/login20.svg'
+import login20b from './image-slides/login20b.svg'
 import login21 from './image-slides/login21.svg'
 import login22 from './image-slides/login22.svg'
 import login23 from './image-slides/login23.svg'
@@ -235,9 +237,11 @@ export default () =>
     <section data-background-color="#4D70B8" data-background-image={login15} />
     <section data-background-color="#4D70B8" data-background-image={login16} />
     <section data-background-color="#4D70B8" data-background-image={login17} />
+    <section data-background-color="#4D70B8" data-background-image={login17b} />
     <section data-background-color="#4D70B8" data-background-image={login18} />
     <section data-background-color="#4D70B8" data-background-image={login19} />
     <section data-background-color="#4D70B8" data-background-image={login20} />
+    <section data-background-color="#4D70B8" data-background-image={login20b} />
     <section data-background-color="#4D70B8" data-background-image={login21} />
     <section data-background-color="#4D70B8" data-background-image={login22} />
     <section data-background-color="#4D70B8" data-background-image={login23} />

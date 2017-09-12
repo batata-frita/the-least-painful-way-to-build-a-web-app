@@ -1,10 +1,6 @@
 # TODO
 
-- [x] Fix outlines for Redacted Font
-- Outlines for the numbers (incoming messages, outgoing messages, price and weight in state, amount of retries)
-- Add the gear to all the update arrows
-- Generate all the intermediate states according to script
-- [x] Design logged in state
+- [ ] Replace gear with program in kafka introduction
 
 ## Practical examples
 
