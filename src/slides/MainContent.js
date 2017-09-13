@@ -169,7 +169,6 @@ export default () =>
     <section data-background-color="#ACACAC" data-background-image={actionsToStateWithFire} />
     <section data-background-color="#ACACAC" data-background-image={actionsToStateWithoutFire} />
     <section data-background-color="#ACACAC" data-background-image={stateToEffect} />
-    <section data-background-color="#F2F2F2" data-background-image={chapter2EffectsFState} />
     <section data-background-color="#ACACAC" data-background-image={blueprintOverlay} />
     <section data-background-color="#4D70B8" data-background-image={blueprintOnlyEvents} />
     <section

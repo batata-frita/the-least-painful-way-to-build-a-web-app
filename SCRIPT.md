@@ -95,10 +95,9 @@ And then you realize that, YES! IT IS A SIGN! The fire is the key!
 
 ## Deep Dive (Paulo)
 
-37. which means that we need to model our application in a way that effects are a function of state
+36 (still same slide) and to understand what this missing piece is, we need to understand the whole.
 
-38. Let’s take a look at what is happening here.
-First we have the actions, which are the things that can happen (lightning strikes, phone explosions, fireballs…), then we have the update function and the state (we will come back to that in more detail soon) and the effects, which are things that we want to do in response to the current reality.
+37. lets step back and take a high level look into what each of these parts are. first we have the actions, then we have the update function and the state, and finally we have the effects,
 
 ### Actions (Fernando)
 
@@ -111,23 +110,22 @@ The first component are the actions
 
 41. The other one is the notifying that the fire truck is on its way.
 
-42. Now that we have all the actions that we will need for now, let’s take a look at
+42. actions are simple descriptions of things that happen, they don't have any logic and they are instantaneous, as soon they happen they are over, we cannot use them to store information
 
 ### State (Paulo)
 
-43. state. State is going to be our model of the reality in the application, so it will contain all the information about how things currently are.
+42 (still same slide): and to store information, we need something else, and that something else is the state
 
-44. From the story we already know that whether or not there is a fire in the house is an important piece of information to keep in our state, but we also have the information about if the fire truck is on its way and whether or not we have a functioning lightning rod installed, which will see soon will impact if a fire will start.
-
-But we are missing something here: we need a way for the actions to affect the state. We need a way of calculating what the new state is going to be whenever an action happens.
+43. State is going to be our model of the reality in the application, so it will contain all the information about how things currently are.
+44. From the story we already know that whether or not there is a fire in the house is an important piece of information to keep in our state, but we also have the information about if the fire truck is on its way and whether or not we have a functioning lightning rod installed
 
 ### Update function (Fernando)
 
-45. That missing piece is the update function.
+45. these pieces of information in state, along with the action is then used by the update function
 
 46. which gets an action and the current state of reality and creates a new version of it.
 
-47. The update function is a description of the transformation that the state will undergo when a given action happens, using the current state as a starting point.
+47. The update function contains the rules to update our representation of the reality.
 
 In this particular case, what we have is wether there is a lighting rod installed and if a fire is going to happen
 
