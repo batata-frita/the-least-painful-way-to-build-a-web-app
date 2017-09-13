@@ -25,7 +25,6 @@ import callFireDepartmentOnPhoneExplosion from './image-slides/callFireDepartmen
 import chapter2EffectsFState from './image-slides/chapter2EffectsFState.svg'
 import chapter3PracticalExamples from './image-slides/chapter3PracticalExamples.svg'
 import dontCallIfLightningStrike from './image-slides/dontCallIfLightningStrike.svg'
-import effectsAreAFunctionOfState from './image-slides/effectsAreAFunctionOfState.svg'
 import explodingPhone from './image-slides/explodingPhone.svg'
 import fireDepartmentComesAndThereIsNoFire from './image-slides/fireDepartmentComesAndThereIsNoFire.svg'
 import fireDepartmentSavesYourHouse from './image-slides/fireDepartmentSavesYourHouse.svg'
