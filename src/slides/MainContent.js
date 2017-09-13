@@ -25,7 +25,6 @@ import callFireDepartmentOnPhoneExplosion from './image-slides/callFireDepartmen
 import chapter2EffectsFState from './image-slides/chapter2EffectsFState.svg'
 import chapter3PracticalExamples from './image-slides/chapter3PracticalExamples.svg'
 import dontCallIfLightningStrike from './image-slides/dontCallIfLightningStrike.svg'
-import effectsAreAFunctionOfState from './image-slides/effectsAreAFunctionOfState.svg'
 import explodingPhone from './image-slides/explodingPhone.svg'
 import fireDepartmentComesAndThereIsNoFire from './image-slides/fireDepartmentComesAndThereIsNoFire.svg'
 import fireDepartmentSavesYourHouse from './image-slides/fireDepartmentSavesYourHouse.svg'
@@ -169,7 +168,6 @@ export default () =>
     <section data-background-color="#ACACAC" data-background-image={actionsToStateWithFire} />
     <section data-background-color="#ACACAC" data-background-image={actionsToStateWithoutFire} />
     <section data-background-color="#ACACAC" data-background-image={stateToEffect} />
-    <section data-background-color="#F2F2F2" data-background-image={chapter2EffectsFState} />
     <section data-background-color="#ACACAC" data-background-image={blueprintOverlay} />
     <section data-background-color="#4D70B8" data-background-image={blueprintOnlyEvents} />
     <section
